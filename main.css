@@ -1,0 +1,49 @@
+* {
+  /* outline: red dashed 1px; */
+}
+h1 {
+  text-align: center;
+  margin-bottom: 3vh;
+  margin-top: 0;
+  font-size: 4.5vh;
+}
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 0;
+  min-width: 700px;
+  height: 1000px;
+  margin: 20px auto;
+  border: 2px solid gray;
+  padding: 10px;
+}
+.note {
+  border: 1px solid red;
+  box-sizing: border-box;
+  display: inline-block;
+  width: 50%;
+  height: 300px;
+  font-size: 16px;
+  padding: 0 20px;
+  vertical-align: top; 
+}
+
+.note-title{
+  display: inline-block;
+}
+
+span{
+  border: 2px solid red;
+  border-radius: 50%;
+  display: inline-block; 
+  width: 30px; /* розмір числа */
+  height: 30px;
+  text-align: center; /* вирівнювання тексту по центру кола */
+  line-height: 30px;
+  margin-right: 10px;
+}
+ul{
+  margin-left: 20px;
+}
+li:nth-child(even) {
+  color: red;
+}
